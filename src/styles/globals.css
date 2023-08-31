@@ -1,8 +1,28 @@
-.switch {
+.btns {
+  padding: 5px;
+}
+.first-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.overly-big-btn {
+  padding: 10px;
+  background-color: aqua;
+  color: purple;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.header {
+  padding: 20px;
+}
+/* .switch {
   position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
+  margin-left: 20px;
 }
 
 .switch input {
@@ -50,10 +70,10 @@ input:checked + .slider:before {
 }
 
 /* Rounded sliders */
-.slider.round {
+/* .slider.round {
   border-radius: 34px;
 }
 
 .slider.round:before {
   border-radius: 50%;
-}
+} */
