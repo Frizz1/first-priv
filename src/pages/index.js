@@ -18,7 +18,7 @@ export default function Home() {
         <div className={styles.description}>
           <p>Canadian School Of Ulaanbaatar</p>
           <div>
-            <a>By Team Frizz</a>
+            <a>By Myself</a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="1em"
@@ -28,63 +28,54 @@ export default function Home() {
             </svg>
           </div>
         </div>
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-        </div>{" "}
+      <img src="./valorant.png"/>
         <div className={styles.grid}>
           <a
-            href="Tiktok"
+            href="Agents"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Tiktok <span>-&gt;</span>
+              Agents<span>-&gt;</span>
             </h2>
-            <p>Find in-depth information about Tiktok and its dangers</p>
+            <p>Find in-depth information about agent roles and playstyles</p>
           </a>
 
           <a
-            href="login"
+            href="Util"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Instagram <span>-&gt;</span>
+              Util <span>-&gt;</span>
             </h2>
-            <p>Learn about the risks that come along with using Instagram</p>
+            <p>Learn about the risks that come along with using utils wrong</p>
           </a>
 
           <a
-            href="services"
+            href="Gamesense"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Facebook <span>-&gt;</span>
+              Gamesense<span>-&gt;</span>
             </h2>
-            <p>Discover and deploy boilerplate examples about Facebook</p>
+            <p>Discover and deploy boilerplate examples about gameplay</p>
           </a>
 
           <a
-            href="contact"
+            href="Weapons"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>
-              Discord<span>-&gt;</span>
+             Weapons <span>-&gt;</span>
             </h2>
-            <p>study in-depth informations about Discord and its dangers</p>
+            <p>study in-depth informations about the weapons and its uses</p>
           </a>
         </div>
       </main>
